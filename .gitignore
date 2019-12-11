@@ -9,6 +9,26 @@ ansible_01/configs/*.xml
 *scratch*
 vpn_close.sh
 vpn_setup.sh
+nso*.zip
+nso-4*/
+TaskLog.html
+default_testbed.yaml
+
+logs/
+ncs-cdb/
+packages/
+scripts/
+state/
+test/
+ncs.conf
+README.ncs
+
+secret_vars.tfvars
+
+# ignore inventory files (store inventory.template)
+inventory.yml
+inventory
+*.retry
 
 
 # Byte-compiled / optimized / DLL files
